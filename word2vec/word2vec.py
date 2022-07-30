@@ -107,4 +107,4 @@ print("\n Training the word2vec model...\n")
 w2v_model.train(tokens, total_examples = len(tokens), epochs = 4000)
 
 
-max_dataset_size = len(w2v_model.wv.syn0)
+#max_dataset_size = len(w2v_model.wv.syn0)
