@@ -27,14 +27,14 @@ nltk.download('punkt')
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_colwidth', -1)
 #loading dataset 
-data = pd.read_json("./Sarcasm_Headlines_Dataset_v2.json", lines=True)
+#data = pd.read_json("./Sarcasm_Headlines_Dataset_v2.json", lines=True)
 
 #deleting article_link column
-del data['article_link']
+#del data['article_link']
 # Data analysis
 
-train = pd.read_csv("./train.csv")
-test = pd.read_csv("./test.csv")
+train = pd.read_csv("../Data/train.csv")
+test = pd.read_csv("../Data/test.csv")
 
 stop = set(stopwords.words('english'))
 punctuation = list(string.punctuation)
