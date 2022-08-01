@@ -1,4 +1,4 @@
-name: elmo
+name: bluff_env
 channels:
   - anaconda
   - conda-forge
