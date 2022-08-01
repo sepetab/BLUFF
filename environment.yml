@@ -1,4 +1,4 @@
-name: bluff_env
+name: bluff
 channels:
   - anaconda
   - conda-forge
