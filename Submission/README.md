@@ -15,6 +15,6 @@ Reference for ELMo model: Analytics Vidhya. (2019). What is ELMo | ELMo For text
 
 Reference for Fasttext: Fasttext.cc. (2019). Text classification · fastText. [online] Available at: https://fasttext.cc/docs/en/supervised-tutorial.html.
 
-Reference for Word3Vec and GloVe: kaggle.com. (n.d.). Sarcasm Detection with GloVe/Word2Vec(83%Accuracy). [online] Available at: https://www.kaggle.com/code/madz2000/sarcasm-detection-with-glove-word2vec-83-accuracy [Accessed 2 Aug. 2022].
+Reference for Word2Vec and GloVe: kaggle.com. (n.d.). Sarcasm Detection with GloVe/Word2Vec(83%Accuracy). [online] Available at: https://www.kaggle.com/code/madz2000/sarcasm-detection-with-glove-word2vec-83-accuracy [Accessed 2 Aug. 2022].
 
 ‌
