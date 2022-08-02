@@ -5,11 +5,14 @@ This is the submission folder for DreamTeamV3. The primary notebook is `BLUFF.ip
 
 Sarcasm detector in news headlines. Training dataset and further information found (https://www.kaggle.com/datasets/rmisra/news-headlines-dataset-for-sarcasm-detection).
 
-Download glove embedding (https://drive.google.com/file/d/1WIG_GVbzcA5AEz-4186JvDVtev_dwTOC/view?usp=sharing). Unzip and place in Data folder.
-
 The `model_probabilities/` directory contains the predicted probabilities of each model on the same test set (`data/test.csv`), saved using the `pickle` library. These files are loaded in `BLUFF.ipynb` in the Results section for use in analysing model performance and constructing an ensemble model. 
 
-Reference for DistlBERT model: Mccormickml.com. (2019). BERT Fine-Tuning Tutorial with PyTorch · Chris McCormick. [online] Available at: https://mccormickml.com/2019/07/22/BERT-fine-tuning/.
+
+To train the GloVe model, download glove embedding (https://drive.google.com/file/d/1WIG_GVbzcA5AEz-4186JvDVtev_dwTOC/view?usp=sharing). Unzip and place in Data folder.
+
+The following tutorials were followed when training the individual models:
+
+Reference for BERT model: Mccormickml.com. (2019). BERT Fine-Tuning Tutorial with PyTorch · Chris McCormick. [online] Available at: https://mccormickml.com/2019/07/22/BERT-fine-tuning/.
 
 Reference for ELMo model: Analytics Vidhya. (2019). What is ELMo | ELMo For text Classification in Python. [online] Available at: https://www.analyticsvidhya.com/blog/2019/03/learn-to-use-elmo-to-extract-features-from-text/.
 
